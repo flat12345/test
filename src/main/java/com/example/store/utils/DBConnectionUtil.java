@@ -15,9 +15,9 @@ public class DBConnectionUtil {
         }
         else {
             String driver = "com.mysql.cj.jdbc.Driver";
-            String url = "jdbc:mysql://localhost:3306/test?useSSL=false";
-            String user = "root";
-            String pass = "";
+            String url = "jdbc:mysql://mysql.nethely.hu:3306/mytestdb?useSSL=false";
+            String user = "mytestdb";
+            String pass = "Cinci123#";
 
             try {
                 Class.forName(driver);
